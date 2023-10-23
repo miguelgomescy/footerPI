@@ -1,0 +1,162 @@
+.footer-style {
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px; /* Ajuste o valor de padding conforme necessário */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; /* Centraliza o texto no centro do footer */
+}
+
+.logo-footer img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Ajuste a margem conforme necessário */
+    width: 250px;
+}
+
+.linha-hor {
+    background-color: #ffffff;
+    width: 100%;
+    height: 2px;
+}
+
+.linha-ver{
+    background-color: #ffffff;
+    height: 200px;
+    width: 2px;
+}
+
+.contato-redes {
+    display: flex;
+    justify-content: space-around; /* Espaço uniforme entre os elementos */
+    width: 100%; /* Preenche toda a largura */
+    max-width: 600px; /* Limite de largura para evitar que fique muito largo */
+}
+
+.contato, .redes, .forms {
+    flex: 1; /* Distribui o espaço igualmente entre esses elementos */
+}
+
+.contato, .redes {
+    display: flex;
+    flex-direction: column;
+    padding-right: 
+}
+
+.contato-style {
+    color: red;
+    font-size: 25px;
+}
+
+.redes-style{
+    color: red;
+    margin-top: ;
+}
+
+.baixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.baixo-social {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+}
+
+.cnpj {
+    text-align: center;
+}
+
+/* Estilize as outras classes e elementos conforme necessário */
+
+
+
+forms{
+    margin-left: 100px;
+}
+
+
+
+
+.newsletter-form {
+    margin-top: 50px ;
+    margin-left: 100px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.copy {
+    font-size: 30px;
+    color: #000;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    padding-left: -10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+button.cadastre-se {
+    background-color: #FF0000; /* Cor de fundo vermelha */
+    color: #ffffff; /* Cor do texto branca */
+    border: none;
+    border-radius: 44px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.cadastre-se:hover {
+    background-color: #810909; /* Cor de fundo vermelha mais escura quando hover */
+}
+
+.instagram img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: -150px;
+}
+
+.Tiktok img{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    margin-left: -250px;
+
+}
+
+.Whats img{
+    width: 60px;
+    height: 60px;
+    margin-left: -360px;
+    margin-right: 5px;
+}
+
+.facebook img{
+        width: 40px;
+        height: 40px;
+        margin-left: -460px;
+
+}
+
+.baixo{
+    background-color: #000;
+}
+
+.cnpj{
+    color: #FFF;
+}
